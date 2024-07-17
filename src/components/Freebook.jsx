@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Carts from './Carts';
-import { useAuth } from '../context/Authprovider';
+import { useAuth } from '../context/Auth';
 
 function Freebook() {
   const { buyData} = useAuth();
